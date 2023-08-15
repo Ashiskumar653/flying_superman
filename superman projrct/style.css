@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.superman-wrapper{
+   
+    background-image: url(./sky.jpg);
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:center;
+}
+.image{
+text-align: center;
+position:relative;
+top: -190px;
+margin-bottom: -200px;
+animation: fly 4000ms ease-in forwards infinite  running;
+
+}
+
+@keyframes fly{
+   0%{
+    transform: translateY(0);
+   }
+   100%{
+    transform:translateY(-200vh);
+   }
+   
+}
